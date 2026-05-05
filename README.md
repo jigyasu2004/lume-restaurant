@@ -2,6 +2,8 @@
 
 Production-quality Next.js App Router restaurant website/app built from the connected Figma concept and local Figma export.
 
+Live site: https://lume-restaurant.shop
+
 ## Features
 
 - Dark luxury restaurant homepage with sticky header, hero, menu preview, reservations, ordering, private events, gallery, reviews, contact/map, newsletter, mobile action bar, and footer
@@ -36,6 +38,8 @@ OPENAI_MODEL=gpt-5-nano
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
+For production, set `NEXT_PUBLIC_SITE_URL=https://lume-restaurant.shop`.
+
 If your intended OpenAI model is different, set `OPENAI_MODEL` to that model value.
 
 ## OpenAI
@@ -63,6 +67,8 @@ npm run test
 2. Import the repository in Vercel.
 3. Add the environment variables above in Project Settings.
 4. Deploy with the default Next.js settings.
+
+Production deployment: https://lume-restaurant.shop
 
 ## Client Handoff Notes
 

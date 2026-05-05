@@ -87,28 +87,28 @@ export function Chatbot() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="fixed bottom-24 right-5 z-50 grid size-16 place-items-center rounded-full bg-gold text-charcoal shadow-[0_20px_50px_rgba(200,169,106,0.32)] transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold md:bottom-7 md:right-7"
+          className="fixed bottom-24 right-4 z-50 grid size-12 place-items-center rounded-full bg-gold text-charcoal shadow-[0_20px_50px_rgba(200,169,106,0.32)] transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold sm:size-16 md:bottom-7 md:right-7"
           aria-label="Open LUMÉ Concierge chat"
         >
-          <MessageCircle className="size-7" />
+          <MessageCircle className="size-5 sm:size-7" />
         </button>
       ) : null}
 
       {open ? (
         <section
-          className="fixed bottom-20 right-3 z-50 flex h-[min(640px,calc(100svh-7rem))] w-[calc(100vw-1.5rem)] max-w-md flex-col overflow-hidden rounded-lg border border-gold/45 bg-[#121212] shadow-2xl md:bottom-7 md:right-7"
+          className="fixed inset-x-3 bottom-20 z-50 flex h-[min(620px,calc(100svh-6rem))] max-w-none flex-col overflow-hidden rounded-lg border border-gold/45 bg-[#121212] shadow-2xl sm:inset-x-auto sm:right-4 sm:w-[min(28rem,calc(100vw-2rem))] md:bottom-7 md:right-7"
           role="dialog"
           aria-label="LUMÉ Concierge chat"
           aria-modal="false"
         >
-          <header className="flex items-start justify-between gap-4 border-b border-gold/20 bg-gradient-to-r from-gold to-[#d7bd7b] p-4 text-charcoal">
+          <header className="flex items-start justify-between gap-3 border-b border-gold/20 bg-gradient-to-r from-gold to-[#d7bd7b] p-3 text-charcoal sm:gap-4 sm:p-4">
             <div className="flex gap-3">
-              <div className="grid size-10 shrink-0 place-items-center rounded-full bg-charcoal text-gold">
+              <div className="grid size-9 shrink-0 place-items-center rounded-full bg-charcoal text-gold sm:size-10">
                 <Bot className="size-5" />
               </div>
-              <div>
-                <h2 className="font-serif text-xl">LUMÉ Concierge</h2>
-                <p className="text-xs leading-5 opacity-80">
+              <div className="min-w-0">
+                <h2 className="font-serif text-lg leading-tight sm:text-xl">LUMÉ Concierge</h2>
+                <p className="mt-1 text-xs leading-5 opacity-80">
                   Ask about reservations, menu, hours, events, or ordering.
                 </p>
               </div>
@@ -123,7 +123,7 @@ export function Chatbot() {
             </button>
           </header>
 
-          <div className="flex-1 space-y-4 overflow-y-auto p-4">
+          <div className="flex-1 space-y-4 overflow-y-auto p-3 sm:p-4">
             {messages.map((message, index) => (
               <div
                 key={`${message.role}-${index}-${message.content.slice(0, 10)}`}
@@ -137,7 +137,7 @@ export function Chatbot() {
                   {message.role === "assistant" ? <Bot className="size-4" /> : <User className="size-4" />}
                 </div>
                 <div
-                  className={`max-w-[78%] rounded-lg px-4 py-3 text-sm leading-6 ${
+                  className={`max-w-[82%] rounded-lg px-3 py-2.5 text-sm leading-6 sm:max-w-[78%] sm:px-4 sm:py-3 ${
                     message.role === "assistant"
                       ? "border border-gold/20 bg-surface text-ivory"
                       : "bg-gold text-charcoal"
@@ -161,7 +161,7 @@ export function Chatbot() {
             <div ref={endRef} />
           </div>
 
-          <div className="border-t border-gold/20 p-4">
+          <div className="border-t border-gold/20 p-3 sm:p-4">
             <div className="mb-3 flex flex-wrap gap-2">
               {quickPrompts.map((prompt) => (
                 <button
@@ -169,7 +169,7 @@ export function Chatbot() {
                   type="button"
                   onClick={() => void sendMessage(prompt)}
                   disabled={loading}
-                  className="rounded-md border border-gold/20 bg-surface px-3 py-1.5 text-xs text-mutedText transition hover:border-gold hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold disabled:opacity-50"
+                  className="rounded-md border border-gold/20 bg-surface px-2.5 py-1.5 text-xs text-mutedText transition hover:border-gold hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold disabled:opacity-50 sm:px-3"
                 >
                   {prompt}
                 </button>
@@ -184,7 +184,7 @@ export function Chatbot() {
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
                 placeholder="Ask LUMÉ..."
-                className="min-h-12 flex-1 rounded-lg border border-gold/25 bg-[#151515] px-4 text-sm text-ivory placeholder:text-mutedText focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20"
+                className="min-h-12 min-w-0 flex-1 rounded-lg border border-gold/25 bg-[#151515] px-4 text-sm text-ivory placeholder:text-mutedText focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20"
               />
               <Button type="submit" size="icon" disabled={loading || !input.trim()} aria-label="Send message">
                 {loading ? <Loader2 className="size-5 animate-spin" /> : <Send className="size-5" />}

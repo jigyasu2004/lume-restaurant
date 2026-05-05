@@ -27,7 +27,7 @@ export function OrderingPreview() {
       <div className="section-shell">
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Order online</p>
-          <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">Enjoy LUMÉ at home</h2>
+          <h2 className="section-title mt-4 font-serif text-ivory">Enjoy LUMÉ at home</h2>
           <p className="mt-4 text-mutedText">
             Build a pickup or delivery order with quantity controls and a polished mock checkout.
           </p>
@@ -35,7 +35,7 @@ export function OrderingPreview() {
 
         <div className="grid gap-6 lg:grid-cols-[1fr_380px]">
           <div>
-            <div className="mb-6 grid grid-cols-2 gap-3">
+            <div className="mb-6 grid grid-cols-1 gap-3 min-[420px]:grid-cols-2">
               {(["pickup", "delivery"] as const).map((type) => (
                 <button
                   key={type}

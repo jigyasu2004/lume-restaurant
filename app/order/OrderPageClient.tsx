@@ -35,7 +35,7 @@ export function OrderPageClient() {
     <div className="section-shell py-32 sm:py-36">
       <div className="mb-10 max-w-3xl">
         <p className="text-xs uppercase tracking-[0.35em] text-gold">Online ordering</p>
-        <h1 className="mt-4 font-serif text-5xl text-ivory sm:text-6xl">Order Online</h1>
+        <h1 className="page-title mt-4 font-serif text-ivory">Order Online</h1>
         <p className="mt-5 text-mutedText">
           Choose pickup or delivery, add dishes, adjust quantities, and complete a polished mock
           checkout flow.
@@ -44,7 +44,7 @@ export function OrderPageClient() {
 
       <div className="grid gap-6 lg:grid-cols-[1fr_400px]">
         <div>
-          <div className="mb-5 grid grid-cols-2 gap-3">
+          <div className="mb-5 grid grid-cols-1 gap-3 min-[420px]:grid-cols-2">
             {(["pickup", "delivery"] as const).map((type) => (
               <button
                 key={type}

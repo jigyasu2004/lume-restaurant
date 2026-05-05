@@ -27,7 +27,7 @@ export function Newsletter() {
     <section className="bg-charcoal py-20 sm:py-24">
       <div className="section-shell max-w-3xl text-center">
         <p className="text-xs uppercase tracking-[0.35em] text-gold">Newsletter</p>
-        <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">Join the LUMÉ list</h2>
+        <h2 className="section-title mt-4 font-serif text-ivory">Join the LUMÉ list</h2>
         <p className="mx-auto mt-4 max-w-2xl text-mutedText">
           Receive seasonal menu updates, private event invitations, and exclusive dining offers.
         </p>

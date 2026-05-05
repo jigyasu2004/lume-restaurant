@@ -16,7 +16,7 @@ export default function PrivateEventsPage() {
     <div className="section-shell py-32 sm:py-36">
       <div className="mb-12 max-w-3xl">
         <p className="text-xs uppercase tracking-[0.35em] text-gold">Private dining</p>
-        <h1 className="mt-4 font-serif text-5xl text-ivory sm:text-6xl">
+        <h1 className="page-title mt-4 font-serif text-ivory">
           Private dining & events
         </h1>
         <p className="mt-5 leading-8 text-mutedText">
@@ -25,7 +25,7 @@ export default function PrivateEventsPage() {
         </p>
       </div>
 
-      <div className="grid gap-5 md:grid-cols-3">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {eventOptions.map((event) => {
           const Icon = event.icon;
           return (

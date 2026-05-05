@@ -10,7 +10,7 @@ import { restaurant } from "@/data/restaurant";
 export function Hero() {
   return (
     <section
-      className="relative flex min-h-[100svh] items-center overflow-hidden px-0 pb-16 pt-28 md:pt-24"
+      className="relative flex min-h-[100svh] items-center overflow-hidden px-0 pb-28 pt-28 md:pb-16 md:pt-24"
       aria-label="Hero"
     >
       <Image
@@ -29,7 +29,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-5 inline-flex items-center gap-2 rounded-md border border-gold/35 bg-black/30 px-4 py-2 text-xs uppercase tracking-[0.35em] text-gold backdrop-blur"
+          className="mb-4 inline-flex items-center gap-2 rounded-md border border-gold/35 bg-black/30 px-4 py-2 text-xs uppercase tracking-[0.35em] text-gold backdrop-blur sm:mb-5"
         >
           <Utensils className="size-4" />
           {restaurant.name}
@@ -38,7 +38,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.08 }}
-          className="mx-auto max-w-5xl font-serif text-4xl leading-tight text-ivory sm:text-6xl lg:text-7xl"
+          className="mx-auto max-w-5xl font-serif text-[clamp(2.1rem,11vw,5rem)] leading-[0.98] text-ivory"
         >
           {restaurant.tagline}
         </motion.h1>
@@ -46,7 +46,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.16 }}
-          className="mx-auto mt-5 max-w-2xl text-base leading-8 text-mutedText sm:text-xl"
+          className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-mutedText sm:mt-5 sm:text-xl sm:leading-8"
         >
           {restaurant.description}
         </motion.p>
@@ -54,13 +54,19 @@ export function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.24 }}
-          className="mt-7 flex flex-col justify-center gap-4 sm:flex-row"
+          className="mt-6 flex flex-col justify-center gap-3 sm:mt-7 sm:flex-row sm:gap-4"
         >
-          <Link href="/reservations" className={buttonStyles({ variant: "primary", size: "lg" })}>
+          <Link
+            href="/reservations"
+            className={buttonStyles({ variant: "primary", size: "lg", className: "min-h-12 sm:min-h-14" })}
+          >
             <Calendar className="size-5" />
             Reserve a Table
           </Link>
-          <Link href="/menu" className={buttonStyles({ variant: "outline", size: "lg" })}>
+          <Link
+            href="/menu"
+            className={buttonStyles({ variant: "outline", size: "lg", className: "min-h-12 sm:min-h-14" })}
+          >
             View Menu
           </Link>
         </motion.div>
@@ -69,9 +75,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.32 }}
-          className="mx-auto mt-6 rounded-lg border border-gold/25 bg-black/25 p-3 text-xs text-ivory backdrop-blur sm:hidden"
+          className="mx-auto mt-5 rounded-lg border border-gold/25 bg-black/25 p-2.5 text-xs text-ivory backdrop-blur sm:hidden"
         >
-          <div className="flex items-center justify-center gap-2">
+          <div className="flex flex-wrap items-center justify-center gap-1.5 text-center leading-5">
             <Clock className="size-4 text-gold" />
             <span>Open today: 11:00 AM - 11:00 PM</span>
           </div>

@@ -19,7 +19,7 @@ export function GalleryPageClient() {
     <div className="section-shell py-32 sm:py-36">
       <div className="mb-10 max-w-3xl">
         <p className="text-xs uppercase tracking-[0.35em] text-gold">Gallery</p>
-        <h1 className="mt-4 font-serif text-5xl text-ivory sm:text-6xl">Gallery</h1>
+        <h1 className="page-title mt-4 font-serif text-ivory">Gallery</h1>
         <p className="mt-5 text-mutedText">
           Explore the food, interiors, cocktails, and event moments that define LUMÉ Dining.
         </p>

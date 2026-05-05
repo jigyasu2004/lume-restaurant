@@ -32,7 +32,7 @@ function MapFrame() {
         className={buttonStyles({
           variant: "primary",
           size: "sm",
-          className: "absolute bottom-4 right-4 shadow-2xl"
+          className: "absolute bottom-3 right-3 shadow-2xl sm:bottom-4 sm:right-4"
         })}
       >
         <Navigation className="size-4" />
@@ -57,7 +57,7 @@ export function LocationContact() {
       <div className="section-shell">
         <div className="mb-12 text-center">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Visit us</p>
-          <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">Location & contact</h2>
+          <h2 className="section-title mt-4 font-serif text-ivory">Location & contact</h2>
         </div>
         <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="rounded-lg border border-gold/25 bg-surface p-6 sm:p-8">

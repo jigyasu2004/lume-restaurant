@@ -16,7 +16,7 @@ export function MenuPreview() {
         <div className="mb-10 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-gold">Menu preview</p>
-            <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">Explore our menu</h2>
+            <h2 className="section-title mt-4 font-serif text-ivory">Explore our menu</h2>
             <p className="mt-4 max-w-2xl text-mutedText">
               Carefully crafted starters, mains, desserts, drinks, and brunch plates.
             </p>

@@ -10,7 +10,7 @@ export function PrivateEvents() {
         <div className="mb-12 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-gold">Private dining</p>
-            <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">
+            <h2 className="section-title mt-4 font-serif text-ivory">
               Private dining & events
             </h2>
             <p className="mt-4 max-w-2xl text-mutedText">
@@ -23,7 +23,7 @@ export function PrivateEvents() {
           </Link>
         </div>
 
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {eventOptions.map((event) => {
             const Icon = event.icon;
             return (

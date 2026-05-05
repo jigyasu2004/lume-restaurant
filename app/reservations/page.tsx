@@ -17,7 +17,7 @@ export default function ReservationsPage() {
       <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
         <div className="lg:sticky lg:top-28">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Reservations</p>
-          <h1 className="mt-4 font-serif text-5xl leading-tight text-ivory sm:text-6xl">
+          <h1 className="page-title mt-4 font-serif text-ivory">
             Reserve your table
           </h1>
           <p className="mt-5 leading-8 text-mutedText">

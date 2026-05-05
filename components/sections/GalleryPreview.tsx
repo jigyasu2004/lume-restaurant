@@ -10,7 +10,7 @@ export function GalleryPreview() {
         <div className="mb-12 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-gold">Gallery</p>
-            <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">
+            <h2 className="section-title mt-4 font-serif text-ivory">
               A glimpse into LUMÉ
             </h2>
             <p className="mt-4 max-w-2xl text-mutedText">

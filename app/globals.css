@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
   color: var(--ivory);
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 h1,
@@ -61,6 +63,19 @@ textarea {
   .section-shell {
     margin-inline: auto;
     width: min(100% - 2rem, 80rem);
+    min-width: 0;
+  }
+
+  .page-title {
+    font-size: clamp(2.75rem, 12vw, 4.5rem);
+    line-height: 0.95;
+    overflow-wrap: anywhere;
+  }
+
+  .section-title {
+    font-size: clamp(2.25rem, 9vw, 3.75rem);
+    line-height: 1.05;
+    overflow-wrap: anywhere;
   }
 
   .gold-rule {

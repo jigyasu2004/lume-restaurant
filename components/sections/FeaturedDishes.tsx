@@ -10,7 +10,7 @@ export function FeaturedDishes() {
       <div className="section-shell">
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Chef signatures</p>
-          <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">Signature dishes</h2>
+          <h2 className="section-title mt-4 font-serif text-ivory">Signature dishes</h2>
           <p className="mt-4 text-mutedText">
             Seasonal ingredients, global inspiration, and refined presentation.
           </p>

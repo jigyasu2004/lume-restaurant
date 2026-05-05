@@ -17,7 +17,7 @@ export default function ContactPage() {
       <section className="section-shell pt-32 sm:pt-36">
         <div className="max-w-3xl">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Contact</p>
-          <h1 className="mt-4 font-serif text-5xl text-ivory sm:text-6xl">Contact LUMÉ</h1>
+          <h1 className="page-title mt-4 font-serif text-ivory">Contact LUMÉ</h1>
           <p className="mt-5 leading-8 text-mutedText">
             Find our address, hours, call and directions actions, map, and guest inquiry form.
           </p>

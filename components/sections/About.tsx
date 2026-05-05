@@ -36,7 +36,7 @@ export function About() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-gold">The dining room</p>
-            <h2 className="mt-4 font-serif text-4xl leading-tight text-ivory sm:text-5xl">
+            <h2 className="section-title mt-4 font-serif text-ivory">
               Designed for memorable dining.
             </h2>
             <p className="mt-6 text-base leading-8 text-mutedText">

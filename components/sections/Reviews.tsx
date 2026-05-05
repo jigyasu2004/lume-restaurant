@@ -7,7 +7,7 @@ export function Reviews() {
       <div className="section-shell">
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Guest notes</p>
-          <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl">Loved by our guests</h2>
+          <h2 className="section-title mt-4 font-serif text-ivory">Loved by our guests</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-3">
           {reviews.map((review) => (

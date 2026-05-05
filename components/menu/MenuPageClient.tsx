@@ -31,13 +31,13 @@ export function MenuPageClient() {
     <div className="section-shell py-32 sm:py-36">
       <div className="mb-10 max-w-3xl">
         <p className="text-xs uppercase tracking-[0.35em] text-gold">Full menu</p>
-        <h1 className="mt-4 font-serif text-5xl text-ivory sm:text-6xl">Menu</h1>
+        <h1 className="page-title mt-4 font-serif text-ivory">Menu</h1>
         <p className="mt-5 text-mutedText">
           Filter chef-crafted dishes by category, dietary tag, popularity, and mood.
         </p>
       </div>
 
-      <div className="mb-8 grid gap-4 rounded-lg border border-gold/25 bg-surface p-4 lg:grid-cols-[1fr_auto]">
+      <div className="mb-8 grid min-w-0 gap-4 rounded-lg border border-gold/25 bg-surface p-4 lg:grid-cols-[1fr_auto]">
         <div className="relative">
           <Search className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-gold" />
           <label className="sr-only" htmlFor="menu-search">
@@ -51,7 +51,7 @@ export function MenuPageClient() {
             className="pl-11"
           />
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex min-w-0 flex-wrap gap-2">
           {(["All", ...menuCategories] as CategoryFilter[]).map((item) => (
             <button
               key={item}

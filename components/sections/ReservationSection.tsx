@@ -8,7 +8,7 @@ export function ReservationSection() {
       <div className="section-shell grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
         <div className="lg:sticky lg:top-28">
           <p className="text-xs uppercase tracking-[0.35em] text-gold">Reservations</p>
-          <h2 className="mt-4 font-serif text-4xl leading-tight text-ivory sm:text-5xl">
+          <h2 className="section-title mt-4 font-serif text-ivory">
             Reserve your table
           </h2>
           <p className="mt-5 leading-8 text-mutedText">

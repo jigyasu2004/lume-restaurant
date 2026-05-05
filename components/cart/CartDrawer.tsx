@@ -28,7 +28,7 @@ export function CartDrawer() {
   return (
     <>
       <aside
-        className={`fixed inset-y-0 right-0 z-[70] flex w-full max-w-md flex-col border-l border-gold/25 bg-[#121212] shadow-2xl transition-transform duration-300 ${
+        className={`fixed inset-y-0 right-0 z-[70] flex w-full max-w-md flex-col border-l border-gold/25 bg-[#121212] pb-16 shadow-2xl transition-transform duration-300 md:pb-0 ${
           isCartOpen ? "translate-x-0" : "translate-x-full"
         }`}
         aria-hidden={!isCartOpen}
@@ -44,7 +44,7 @@ export function CartDrawer() {
           </Button>
         </div>
 
-        <div className="grid grid-cols-2 gap-2 px-5 py-4">
+        <div className="grid grid-cols-1 gap-2 px-5 py-4 min-[420px]:grid-cols-2">
           {(["pickup", "delivery"] as const).map((type) => (
             <button
               key={type}

@@ -1,0 +1,305 @@
+Create a premium, modern, international restaurant website design for a fictional brand called “LUMÉ Dining”.
+
+The website should feel elegant, global, warm, luxurious, and conversion-focused. It should not look country-specific. Avoid Indian, Italian, Chinese, or any single-cuisine identity. Make it suitable for an international restaurant in cities like London, Dubai, Singapore, New York, Toronto, or Sydney.
+
+Brand concept:
+LUMÉ Dining is a modern global restaurant offering chef-crafted dishes, elegant interiors, seasonal ingredients, cocktails, brunch, private dining, reservations, and online ordering.
+
+Brand personality:
+Premium, warm, stylish, modern, calm, sophisticated, global, welcoming.
+
+Target audience:
+Couples, tourists, families, business diners, event planners, food lovers, hotel guests, and people looking for elegant casual dining.
+
+Primary business goals:
+1. Get more table reservations.
+2. Get more online orders.
+3. Get more calls and directions.
+4. Promote private dining and events.
+5. Build trust through reviews, gallery, and strong branding.
+
+Design style:
+Use a dark premium theme with warm luxury accents.
+Use large food photography, elegant spacing, clean typography, rounded cards, subtle shadows, smooth sections, and a high-end restaurant atmosphere.
+
+Color palette:
+- Deep charcoal: #111111
+- Warm ivory: #F8F4EC
+- Champagne gold: #C8A96A
+- Clay terracotta: #B66A50
+- Soft gray: #8E8E8E
+- White: #FFFFFF
+
+Typography:
+Use an elegant serif font for headings, similar to Playfair Display, Cormorant Garamond, or Lora.
+Use a clean sans-serif font for body text, similar to Inter, Manrope, or Poppins.
+
+Create the following Figma frames:
+1. Desktop homepage — 1440px wide
+2. Tablet homepage — 768px wide
+3. Mobile homepage — 390px wide
+4. Menu page
+5. Reservation page
+6. Online ordering/cart flow
+7. Private events page
+8. Contact/location page
+9. Style guide page
+10. Components page
+
+Homepage sections:
+
+1. Header / Navigation
+Create a premium sticky header with:
+- LUMÉ wordmark logo
+- Navigation links: Home, Menu, Reservations, Private Events, Gallery, Contact
+- Primary CTA button: Reserve a Table
+- Secondary CTA or icon: Order Online
+- Mobile hamburger menu version
+
+2. Hero Section
+Create a full-screen hero section with a luxury restaurant interior or elegant plated food background image.
+Add a dark gradient overlay for readability.
+Headline:
+“Global flavors, beautifully served.”
+Subheadline:
+“Experience chef-crafted dishes, elegant interiors, and effortless reservations in the heart of the city.”
+Primary button:
+“Reserve a Table”
+Secondary button:
+“View Menu”
+Add small trust indicators:
+- Open today: 11:00 AM – 11:00 PM
+- 4.8 guest rating
+- Private dining available
+
+3. Featured Dishes Section
+Create a section titled:
+“Signature dishes”
+Subtitle:
+“Seasonal ingredients, global inspiration, and refined presentation.”
+Show 4 dish cards with premium food images.
+Each card should include:
+- Dish image
+- Dish name
+- Short description
+- Price
+- Dietary tags
+- Small “Add” or “View details” button
+
+Example dishes:
+- Truffle Mushroom Risotto
+- Charred Citrus Salmon
+- Mediterranean Mezze Board
+- Chocolate Hazelnut Fondant
+
+4. About Section
+Create a split layout with image on one side and text on the other.
+Title:
+“Designed for memorable dining.”
+Body:
+“LUMÉ Dining brings together seasonal ingredients, global techniques, and warm hospitality in a space designed for everyday meals, celebrations, and private gatherings.”
+Add 3 feature cards:
+- Seasonal Ingredients
+- Chef-Led Menu
+- Elegant Atmosphere
+
+5. Interactive Menu Preview
+Create a modern menu preview section with tabs:
+- Starters
+- Mains
+- Desserts
+- Drinks
+- Brunch
+Show 6 menu items in clean cards.
+Each item should include:
+- Dish name
+- Description
+- Price
+- Tags such as Vegan, Vegetarian, Gluten-Free, Chef’s Pick, New
+- Add to order button
+
+Menu item examples:
+1. Burrata & Heirloom Tomato — Creamy burrata, basil oil, aged balsamic, toasted sourdough — $14
+2. Seared Tuna Tataki — Sesame crust, citrus soy, pickled cucumber — $18
+3. Wild Mushroom Risotto — Parmesan, truffle oil, herb gremolata — $24
+4. Charred Citrus Salmon — Fennel salad, lemon butter, seasonal greens — $29
+5. Dark Chocolate Fondant — Hazelnut cream, vanilla gelato — $12
+6. Signature Citrus Spritz — Botanical aperitif, orange, sparkling wine — $11
+
+6. Reservation Section
+Create a premium reservation booking form.
+Title:
+“Reserve your table”
+Fields:
+- Full name
+- Email
+- Phone
+- Date
+- Time
+- Number of guests
+- Occasion dropdown
+- Special request message
+CTA button:
+“Confirm Reservation”
+Add a small confirmation state:
+“Thank you. Your reservation request has been received.”
+
+7. Online Ordering Preview
+Create an ordering section with menu cards and a cart sidebar.
+Include:
+- Pickup / Delivery toggle
+- Add to cart buttons
+- Quantity controls
+- Cart summary
+- Subtotal
+- Checkout button
+- Empty cart state
+- Order confirmation state
+
+Make this section look like a real restaurant online ordering experience.
+
+8. Private Events Section
+Create a section for private dining and events.
+Title:
+“Private dining & events”
+Subtitle:
+“Host intimate dinners, corporate gatherings, celebrations, and chef’s table experiences.”
+Add 3 cards:
+- Corporate Dinners
+- Celebrations
+- Chef’s Table
+CTA:
+“Plan an Event”
+Add a small event inquiry form with:
+- Event type
+- Guest count
+- Preferred date
+- Email
+- Message
+
+9. Gallery Section
+Create a premium masonry or grid gallery.
+Categories:
+- Food
+- Interior
+- Drinks
+- Events
+Use large high-quality images.
+Make the gallery feel editorial and luxurious.
+
+10. Reviews Section
+Create testimonial cards with star ratings.
+Title:
+“Loved by our guests”
+Add 3 reviews:
+- “Beautiful atmosphere, excellent service, and a menu that felt truly global.”
+- “Perfect for business dinners, date nights, and weekend brunch.”
+- “The reservation experience was smooth and the dining experience was unforgettable.”
+Show reviewer names and small avatar circles.
+
+11. Location & Contact Section
+Create a section with:
+- Restaurant name: LUMÉ Dining
+- Address: 28 Aurora Avenue, Downtown District
+- Phone: +1 (555) 284-9081
+- Email: hello@lumedining.com
+- Opening hours:
+  Monday–Thursday: 11:00 AM – 10:00 PM
+  Friday–Saturday: 11:00 AM – 11:30 PM
+  Sunday: 10:00 AM – 9:00 PM
+- Google map placeholder
+- Buttons:
+  “Get Directions”
+  “Call Now”
+
+12. Newsletter Section
+Title:
+“Join the LUMÉ list”
+Text:
+“Receive seasonal menu updates, private event invitations, and exclusive dining offers.”
+Add email input and Subscribe button.
+
+13. Footer
+Create a clean premium footer with:
+- LUMÉ logo
+- Short brand description
+- Quick links
+- Opening hours
+- Contact details
+- Social icons
+- Privacy Policy
+- Terms
+- Copyright
+
+Mobile design requirements:
+Design mobile-first screens with:
+- Sticky bottom action bar
+- Call button
+- Directions button
+- Menu button
+- Reserve button
+- Large readable text
+- Touch-friendly buttons
+- Clean spacing
+- Collapsible mobile navigation
+
+UX requirements:
+- Clear CTA buttons
+- Strong visual hierarchy
+- Realistic restaurant conversion flow
+- Smooth user journey from hero to reservation/order
+- Menu should not be a PDF; design it as searchable HTML-style menu cards
+- Make reservation and ordering flows feel usable and real
+
+Accessibility requirements:
+- High contrast text
+- Visible button states
+- Clear form labels
+- Error states for forms
+- Keyboard-friendly layout
+- Alt text placeholder notes for images
+- Do not use tiny text
+
+Components to create:
+- Button primary
+- Button secondary
+- Navigation bar
+- Mobile navigation
+- Dish card
+- Menu item card
+- Reservation input field
+- Dropdown field
+- Cart item row
+- Testimonial card
+- Event card
+- Gallery image card
+- Footer link
+- Sticky mobile action bar
+
+Style guide page:
+Create a page showing:
+- Logo
+- Colors
+- Typography
+- Button styles
+- Card styles
+- Input fields
+- Spacing system
+- Icon style
+- Image treatment
+- Desktop and mobile examples
+
+Image direction:
+Use high-quality, premium, international restaurant images:
+- Elegant restaurant interiors
+- Fine casual dining atmosphere
+- Plated global cuisine
+- Cocktails
+- Dessert close-ups
+- Private dining table setup
+- Brunch table
+- Chef preparing food
+Avoid images that look overly local, cheap, fast-food, or single-cuisine specific.
+
+Overall feel:
+The design should look like a real website a freelance web developer could present to premium restaurant, café, hotel dining, lounge, catering, or private event clients.
